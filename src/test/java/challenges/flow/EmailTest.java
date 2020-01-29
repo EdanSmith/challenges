@@ -8,8 +8,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
-import challenges.flow.custom.EmailAdapter;
-import challenges.flow.custom.UserAgent;
+import challenges.flow.solution.EmailAdapter;
+import challenges.flow.solution.UserAgent;
 import flow.Engine;
 import flow.IAdapter;
 import flow.IAgent;

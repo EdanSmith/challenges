@@ -1,12 +1,12 @@
-package challenges.flow.custom;
+package challenges.flow.solution;
 
 import flow.IEvent;
 
-public class Event implements IEvent<String> {
+public class EmailEvent implements IEvent<String> {
 
 	private String value;
 
-	public Event(String value) {
+	public EmailEvent(String value) {
 		this.value = value;
 	}
 

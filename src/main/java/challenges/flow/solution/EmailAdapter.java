@@ -1,4 +1,4 @@
-package challenges.flow.custom;
+package challenges.flow.solution;
 
 import flow.ActionException;
 import flow.AdapterException;
@@ -11,6 +11,6 @@ public class EmailAdapter implements IAdapter<IAction> {
 	public IEvent adapt(IAction action) throws AdapterException, ActionException {
 
 		String value = (String) action.execute();
-		return new Event(value);
+		return new EmailEvent(value);
 	}
 }

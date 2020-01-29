@@ -1,4 +1,4 @@
-package challenges.flow.custom;
+package challenges.flow.solution;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -17,7 +17,7 @@ public class UserAgent implements IAgent {
 	public List<IAction> act() {
 		List<IAction> flow = new LinkedList<IAction>();
 		for (String value : values) {
-			flow.add(new Action(value));
+			flow.add(new EmailAction(value));
 		}
 		return flow;
 	}

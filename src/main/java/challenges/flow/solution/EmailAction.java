@@ -1,13 +1,13 @@
-package challenges.flow.custom;
+package challenges.flow.solution;
 
 import flow.ActionException;
 import flow.IAction;
 
-public class Action implements IAction<String> {
+public class EmailAction implements IAction<String> {
 
 	private String value;
 
-	public Action(String value) {
+	public EmailAction(String value) {
 		this.value = value;
 	}
 
